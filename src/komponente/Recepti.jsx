@@ -9,7 +9,7 @@ const Recepti = ({recepti,setOmiljenStatus}) => {
 
   return (
     
-      <div>
+      <div  style={{backgroundColor:'#141414'}}>
         <Navbar />
         <div style={{ position: 'relative' }}>
            
