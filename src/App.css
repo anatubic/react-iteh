@@ -1,0 +1,120 @@
+/* Navbar CSS */
+nav ul, nav li {
+  margin: 0;
+  padding: 3px;
+  list-style: none;
+}
+
+nav {
+  background-color: #333; /* Boja pozadine navigacijske trake */
+  color: #fff; /* Boja teksta u navigacijskoj traci */
+  font-size: 18px;
+  height: 40px; /* Povećana visina navigacijske trake */
+}
+
+nav ul {
+  display: flex; /* Postavljanje stavki na istu liniju (horizontalno) */
+  align-items: center; /* Centriranje stavki na sredinu visine navigacijske trake */
+}
+
+nav li {
+  margin-right: 20px; /* Razmak između stavki */
+}
+
+nav li:last-child {
+  margin-right: 0; /* Uklanjanje razmaka nakon posljednje stavke */
+}
+
+nav a {
+  text-decoration: none; /* Uklanjanje podvlake ispod poveznica */
+  color: #fff; /* Boja teksta u poveznicama */
+  padding: 8px 12px; /* Razmak između teksta i granica poveznica */
+}
+
+nav a:hover {
+  background-color: #555; /* Boja pozadine poveznica na hover efektu */
+}
+
+
+
+
+/* JedanRecept CSS */
+.koktel-slika-container {
+  text-align: center;
+  padding: 3px;
+  border-radius: 10px;
+  border: 5px solid #44433c;
+  margin-bottom: 10px;
+}
+
+.koktel-slika {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.jedan-recept-kartica {
+  border: 7px solid #44433c;
+  padding: 10px;
+  margin: 1px;
+  background-color: #ffd700;
+  text-align: center;
+  width: 15em;
+  height: 30em;
+  border-radius: 25px;
+}
+
+.jedan-recept-kartica h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.jedan-recept-kartica h3 {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.jedan-recept-kartica ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.jedan-recept-kartica li {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.jedan-recept-kartica button.omiljeni-dugme {
+  background-color: #ddd;
+  color: #444;
+  border: none;
+  padding: 8px 16px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 7px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.jedan-recept-kartica button.omiljeni-dugme:hover {
+  background-color: #e0e0e0;
+}
+
+.jedan-recept-kartica button.omiljeni {
+  background-color: #e64c2e;
+  color: #fff;
+}
+
+.jedan-recept-kartica button.omiljeni:hover {
+  background-color: #c0392b;
+}
+
+/* Stil za pozadinu na putanji /recepti */
+.bg-recepti {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #141414;
+  z-index: -1; /* Postavlja novi div ispod ostalog sadržaja */
+}
